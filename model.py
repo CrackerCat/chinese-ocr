@@ -1,4 +1,5 @@
 #coding:utf-8
+import torch
 ##添加文本方向 检测模型，自动检测文字方向，0、90、180、270
 from ctpn.text_detect import text_detect
 from ocr.model import predict as ocr
